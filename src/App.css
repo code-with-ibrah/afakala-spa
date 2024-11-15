@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --blue: #004AAD;
+    --blue-gray: #2976dc;
+    --white: #fff;
+    --shadow: #bebebe
+}
+
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding: 7px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-family: sans-serif;
+}

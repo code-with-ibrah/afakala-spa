@@ -1,0 +1,13 @@
+
+.reques-feature__form-wrapper{
+    background: #14478a;
+    padding: 10px 20px;
+    border-radius: 3px;
+
+    margin: 10px 0 90px 0;
+}
+
+.reques-feature__form-wrapper label{
+    color: white !important;
+    margin-bottom: -10px !important;
+}

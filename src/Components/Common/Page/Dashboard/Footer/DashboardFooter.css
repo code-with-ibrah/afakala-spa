@@ -1,0 +1,38 @@
+
+.footer{
+    width: 100%;
+    background: var(--white);
+    box-shadow: 0 0 2px var(--shadow);
+    padding: 8px 0;
+    font-family: "segoe ui";
+    /* position: absolute; */
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    position: sticky;
+    bottom: 0;
+}
+
+.footer .responsive-container{
+
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue);
+    font-weight: 400;
+    transition: .2s ease;
+}
+
+.footer .footer-tab.active,
+.footer .footer-tab:hover{
+    color: black;
+}

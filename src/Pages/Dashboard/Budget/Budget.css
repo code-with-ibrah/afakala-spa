@@ -1,0 +1,26 @@
+.income__form-wrapper{
+    margin-bottom: 60px;
+    background: #14478a;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px var(--shadow);
+}
+
+.income__form-wrapper label{
+    color: white !important;
+    margin-bottom: -10px !important;
+}
+
+
+.income__table-wrapper{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.income__table-wrapper .ant-typography{
+    color: white;
+    background: #14478a;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}

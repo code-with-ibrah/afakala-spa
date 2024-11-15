@@ -1,0 +1,155 @@
+.triana-logo{
+  background: var(--blue);
+  width: fit-content;
+  color: var(--white);
+  padding: 2px 5px;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+}
+
+
+.triana-logo .icon{
+
+}
+
+
+
+
+
+
+
+
+
+/* pre questions */
+.pre-questions{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .pre-question__card{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: gray;
+    background: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  .chat-screen__container{
+    /* padding: 10px; */
+  }
+  
+  .chat-screen{
+    overflow-y: auto;
+  }
+  
+  
+  .message{
+    width: fit-content;
+    display: block;
+    border-radius: 3px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .message .profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  
+  .message .content{
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 0 0 4px #00000046;
+  }
+  
+  .my-message .content {
+    color: gray;
+    background: #fff;
+    border-radius: 10px 0px 10px 10px;
+  }
+
+ 
+  
+  .receipient-message {
+  
+  }
+  
+  .receipient-message .content{
+    color: white;
+    background: #0665d8;
+    border-radius: 0 10px 10px 10px;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  /* text message */
+  .text-message_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  
+    background: #f9f9f9;
+    border-radius: 50px;
+    box-shadow: 0 0 4px #00000046;
+
+    position: sticky;
+    bottom: 10px;
+  }
+  
+  .text-message_wrapper .icon{
+    padding: 10px 15px;  
+    color: var(--blue);  
+  }
+  
+  
+  .text-message{
+    width: 100%;
+    border-radius: 3px;
+    border: 0;
+    background: 0;
+    resize: none;
+    outline: none;
+    text-align: left;
+    overflow: hidden;
+  }
+
+
+ 
+
+
+
+  /* robot typing */
+  .robot-typing{
+    color: var(--blue);
+  }
+
+  .robot-typing span{
+
+  }
+
+  .robot-typing .icon{
+    padding: 5px;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 0 4px var(--shadow);
+  }

@@ -1,0 +1,26 @@
+
+.menu-card__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+
+    margin: 10px 0 20px 0;
+}
+
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 4px var(--shadow);
+    background: var(--blue);
+    color: var(--white);
+    transition: all .3s ease;
+}
+
+
+.menu-card:hover{
+    background-color: var(--blue-gray);
+}

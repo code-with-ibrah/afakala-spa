@@ -1,0 +1,25 @@
+.trading-item__wrapper{
+    display: grid;
+    gap: 20px;
+    margin: 20px 0 220px 0;
+}
+
+.trading-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--blue);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px var(--shadow);
+    font-size: 17px;
+}
+
+.trading-item .title{
+
+}
+
+.trading-item .icon{
+    font-size: 25px;
+}

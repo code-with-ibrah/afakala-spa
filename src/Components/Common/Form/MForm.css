@@ -1,0 +1,23 @@
+.m-form__container{
+    height: 50vh;
+    margin: auto;
+    max-width: 450px;
+    margin-top: 150px;
+}
+
+.m-form__container-content{
+    background: #fdfdfde8;
+    padding: 20px;
+    border-radius: 4px;
+
+    box-shadow: 0 1px 2px var(--white);
+}
+
+.form-logo{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    margin-bottom: -15px;
+}

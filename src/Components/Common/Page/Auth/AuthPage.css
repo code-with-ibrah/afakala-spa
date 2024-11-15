@@ -1,0 +1,11 @@
+body{
+    background: linear-gradient(0deg, #000000e3, #000000b7), url("/public/assets/img/auth_screen1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.auth-page__layout{
+
+}

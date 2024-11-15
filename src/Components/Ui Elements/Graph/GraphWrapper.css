@@ -1,0 +1,19 @@
+.graph-wrapper{
+    padding: 10px;
+    background: var(--white);
+    margin: 30px 0;
+    box-shadow: 0 1px 2px var(--shadow);
+    border-radius: 4px;
+
+}
+
+.graph-title{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+.default-graph__height{
+    height: 400px;
+}

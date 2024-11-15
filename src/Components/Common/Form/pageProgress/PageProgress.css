@@ -1,0 +1,25 @@
+.progress-bar__container{
+    margin-top: 10px;
+}
+
+.progress-bar__container-content{
+    width: fit-content;
+    margin: auto;
+}
+
+.progress-bar__container .dot{
+    background: var(--white);
+    padding: 0px 10px;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.progress-bar__container .dot:hover{
+    transition: .3s ease;
+    background: #cecdcd;
+}
+
+.progress-bar__container .dot.active{
+    background: var(--blue);
+}
